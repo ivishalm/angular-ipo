@@ -1,0 +1,20 @@
+.msg{
+  width: 200;
+  height: 50px;
+  background-color: #5B6B7A;
+  color: #fff;
+  border-radius: 5px;
+  font-style: italic;
+  border: 2px;
+  margin: 20px 0px 0px 10px;
+}
+.msg-des{
+  padding: 10px;
+}
+.heading {
+  padding: 5px;
+  margin: 10px 0px 0px 10px;
+}
+.title{
+  margin: 50px 0px 10px 10px;
+}

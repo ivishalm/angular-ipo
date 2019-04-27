@@ -1,0 +1,25 @@
+span {
+  content: "\20B9";
+}
+.bid-Title{
+margin-top: 50px;
+}
+.form-label{
+  padding: 20px;
+}
+.short-msg{
+  width: 150;
+  height: 50px;
+  background-color: lightblue;
+  radius:5px;
+  margin: 35px 0px 20px 50px;
+  border-radius: 10px;
+  border: 2px;
+  padding: 10px;
+}
+/* .short-msg1{
+  background-color: lightgreen;
+} */
+.fa-exclamation-circle{
+    margin: 10px;
+}

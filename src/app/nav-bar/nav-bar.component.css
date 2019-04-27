@@ -1,0 +1,19 @@
+a {
+    color: #EB1165;
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    color: #000;
+}
+.logo-box {
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+}
+.logo {
+    width: 100%;
+}
+.navbar {
+  background-color: #EB1165
+}

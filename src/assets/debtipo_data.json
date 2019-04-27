@@ -1,0 +1,22 @@
+{
+  "debtipo_data": [
+    {
+      "debtname": "Bajaj Finance Private Limited",
+      "debtminlot": "1",
+      "debtmarketlot": "10",
+      "debtfacevalue": "10.00",
+      "debtprice": "1250.00",
+      "debtenddate": "20 Nov 2018",
+      "debtaction": "Apply"
+    },
+    {
+      "debtname": "Capital India FinanceLtd:Bhitex",
+      "debtminlot": "1",
+      "debtmarketlot": "10",
+      "debtfacevalue": "10.00",
+      "debtprice": "1250.00",
+      "debtenddate": "20 Nov 2018",
+      "debtaction": "Apply"
+    }
+  ]
+}

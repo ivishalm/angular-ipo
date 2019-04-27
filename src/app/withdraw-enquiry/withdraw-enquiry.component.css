@@ -1,0 +1,62 @@
+.card-main{
+  margin: 2rem auto;
+  max-width: 70rem;
+  max-height: auto;
+}
+.number{
+  /* width: 10rem; */
+  margin: 0px 0px 0px 90px;
+}
+.name_1{
+  padding-top: 10px
+}
+.number_1{
+    padding: .7rem;
+    background-color: #EB1165;
+    margin-left: 22px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black
+}
+.line{
+    width: 160px;
+    height: 9px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.msg{
+  width: 250;
+  height: 60px;
+  background-color: #5B6B7A;
+  radius:5px;
+  margin: 35px 0px 0px 150px;
+  border-radius: 10px;
+  border: 2px;
+  padding: 10px;
+}
+.msg-des{
+  padding: 10px;
+}
+.termAcceptance{
+  margin: 40px 0px 10px 0px;
+}
+.checkboxName{
+  width: 50px;
+  height: 20px;
+  color: red;
+}
+.msg_Declaimer{
+  font-weight:500;
+  font-size:20px;
+  /* margin-bottom: 25px; */
+}
+.termAndCondition{
+  color: red;
+
+}
+.btn-danger{
+    margin: 22px 22px;
+    border-radius: 10px;
+}

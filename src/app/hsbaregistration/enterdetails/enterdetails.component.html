@@ -1,0 +1,100 @@
+<div class="container ">
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+
+        <!-- <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label>Depository Name</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group form-control">
+                <mat-form-field>
+                    <mat-select>
+                        <mat-option class="form-control" value="option">NSDL1</mat-option>
+                        <mat-option class="form-control" value="option">NSDL2</mat-option>
+                        <mat-option class="form-control" value="option">NSDL3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="dpid">DP ID</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="dpid" name="dpid" class="form-control" ngModel matInput placeholder="Enter DP ID">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6 infoDpId">
+                <p><span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>This is the details of your repository participant and usually start with IN</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="clientid">Client ID/Beneficiary No.</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="clientid" name="clientid" class="form-control" ngModel matInput placeholder="Enter Client ID">
+                </mat-form-field>
+            </div>
+            <div class="col-md-6 infoDpId">
+                <p><span><i class="fa fa-exclamation-circle" aria-hidden="true"></i></span>This is the details of your repository participant and usually start with IN</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="pan">PAN</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="pan" name="pan" class="form-control" ngModel matInput placeholder="Enter PAN">
+                </mat-form-field>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="investorName">Investor Name</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="investorName" name="investorName" class="form-control" ngModel matInput placeholder="Enter Name">
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="email">Email address </mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="email" name="email" class="form-control" ngModel matInput placeholder="Enter Email ID">
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2 label ">
+                <mat-label for="mobile">Mobile No</mat-label>
+            </div>
+            <div class="example-container col-md-4 form-group">
+                <mat-form-field>
+                    <input id="mobile" name="mobile" ngModel class="form-control" matInput placeholder="Enter Mobile No">
+                </mat-form-field>
+            </div>
+        </div>
+
+        <div class="example-button-row col-md-4 ">
+            <button type="submit" mat-raised-button color="accent">PROCEED</button>
+        </div>
+    </form>
+</div>

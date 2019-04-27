@@ -1,0 +1,52 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container{
+  width: 40%;
+}
+.label{
+  margin-top: 25px;
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+.infoDpId{
+    border-radius: 35px;
+    background: #ADD8E6;
+    /* padding: 10px; */
+    text-align:center;
+    width: 350px;
+    height: 60px;
+}
+.number{
+    padding: 10px;
+    background-color: #EB1165;
+    margin-left: 22px;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black
+}
+.line{
+    width: 160px;
+    height: 9px;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.enterDetails {
+  padding: 10px;
+}
+ .confirmDetail{
+   padding: 10px;
+ }
+.enterotp {
+  padding: 10px;
+}
+
+.reciept{
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+<h5>Equity IPOs</h5>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Type</th>
+      <th scope="col">Lot Size</th>
+      <th scope="col">Min Price</th>
+      <th scope="col">Max Price</th>
+      <th scope="col">End Date</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of ipoData">
+      <td>{{data.name}}</td>
+      <td>{{data.type}}</td>
+      <td>{{data.lotsize}}</td>
+      <td>{{data.minprice}}</td>
+      <td>{{data.maxprice}}</td>
+      <td>{{data.enddate}}</td>
+      <td>{{data.action}}</td>
+    </tr>
+  </tbody>
+</table>
+<!--
+<h5>Debt IPOs</h5>
+<table class="table table-striped">
+  <thead>
+    <tr >
+      <th scope="col">Name</th>
+      <th scope="col">Min Lot</th>
+      <th scope="col">Market Lot</th>
+      <th scope="col">Face Value</th>
+      <th scope="col">Price</th>
+      <th scope="col">End Date</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of ipoData">
+      <td>{{data.debtname}}</td>
+      <td>{{data.debtminlot}}</td>
+      <td>{{data.debtmarketlot}}</td>
+      <td>{{data.debtfacevalue}}</td>
+      <td>{{data.debtprice}}</td>
+      <td>{{data.debtenddate}}</td>
+      <td>{{data.debtaction}}</td>
+    </tr>
+  </tbody>
+</table> -->

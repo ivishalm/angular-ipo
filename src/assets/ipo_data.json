@@ -1,0 +1,43 @@
+{
+  "ipo_data":[
+    {
+      "name": "Bajaj Finance Private Limited",
+      "type": "IPO",
+      "lotsize": "1",
+      "minprice": "1,000,000,00",
+      "maxprice": "1,50,000,00",
+      "enddate": "20 Nov 2018",
+      "action": "Apply"
+    },
+    {
+      "name": "Capital India FinanceLtd:Bhitex",
+      "type": "IPO",
+      "lotsize": "1",
+      "minprice": "1,000,000,00",
+      "maxprice": "1,40,000,00",
+      "enddate": "18 Nov 2022",
+      "action": "Apply"
+    },
+    {
+      "name": "Capital India FinanceLtd:Bhitex",
+      "type": "IPO",
+      "lotsize": "1",
+      "minprice": "1,000,000,00",
+      "maxprice": "1,45,000,00",
+      "enddate": "18 Nov 2018",
+      "action": "Apply"
+    },
+    {
+      "name": "Capital India FinanceLtd:Bhitex",
+      "type": "IPO",
+      "lotsize": "1",
+      "minprice": "1,000,000,00",
+      "maxprice": "1,48,000,00",
+      "enddate": "18 Nov 2022",
+      "action": "Apply"
+    }
+  ]
+
+
+
+}

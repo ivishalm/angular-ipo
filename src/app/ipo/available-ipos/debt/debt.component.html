@@ -1,0 +1,45 @@
+<div class="mat-elevation-z8">
+    <h5 class="heading">Debt IPOs</h5>
+    <table mat-table [dataSource]="dataSource">
+        <ng-container matColumnDef="debtname">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtname}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtminlot">
+            <th mat-header-cell *matHeaderCellDef> Min Lot </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtminlot}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtmarketlot">
+            <th mat-header-cell *matHeaderCellDef> Market Lot </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtmarketlot}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtfacevalue">
+            <th mat-header-cell *matHeaderCellDef> Face Value</th>
+            <td mat-cell *matCellDef="let element"> {{element.debtfacevalue}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtprice">
+            <th mat-header-cell *matHeaderCellDef> Price </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtprice}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtenddate">
+            <th mat-header-cell *matHeaderCellDef> End Date </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtenddate}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="debtaction">
+            <th mat-header-cell *matHeaderCellDef> Action </th>
+            <td mat-cell *matCellDef="let element"> {{element.debtaction}} </td>
+        </ng-container>
+
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns:displayedColumns;"></tr>
+    </table>
+
+
+</div>

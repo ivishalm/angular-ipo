@@ -1,0 +1,80 @@
+<div class="container ">
+    <div class="heading">
+        <h5>Investor details </h5>
+        <hr />
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>Depository Name</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>any</mat-label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>DP ID</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.dpid }}</mat-label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>ClientID/Beneficiary ID</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.clientId }}</mat-label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>PAN</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.pan }}</mat-label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>Investor Name</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.investorName }}</mat-label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>Email address</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.email }}</mat-label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <mat-label>Mobile Number</mat-label>
+        </div>
+        <div class="col-md-6">
+            <mat-label>{{ dd.mob }}</mat-label>
+        </div>
+    </div>
+    <div class="example-button-row row">
+        <div class="col-md-2">
+            <button mat-raised-button color="accent" routerLink="/confirmdetails" routerLinkActive="active">
+            CONFIRM
+      </button>
+        </div>
+        <div class="">
+            <button mat-raised-button color="accent" routerLink="/confirmdetails" routerLinkActive="active">
+            EDIT
+      </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- <button (click)="load()">Load</button> -->

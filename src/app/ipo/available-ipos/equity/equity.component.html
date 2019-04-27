@@ -1,0 +1,46 @@
+<div >
+    <h5 class="heading">Equity IPOs</h5>
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="type">
+            <th mat-header-cell *matHeaderCellDef> Type </th>
+            <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="lotsize">
+            <th mat-header-cell *matHeaderCellDef> Lot size </th>
+            <td mat-cell *matCellDef="let element"> {{element.lotsize}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="minprice">
+            <th mat-header-cell *matHeaderCellDef> Min Price </th>
+            <td mat-cell *matCellDef="let element"> {{element.minprice}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="maxprice">
+            <th mat-header-cell *matHeaderCellDef> Max Price </th>
+            <td mat-cell *matCellDef="let element"> {{element.maxprice}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="enddate">
+            <th mat-header-cell *matHeaderCellDef> End Date </th>
+            <td mat-cell *matCellDef="let element"> {{element.enddate}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="action">
+            <th mat-header-cell *matHeaderCellDef> Action </th>
+            <td mat-cell *matCellDef="let element"> {{element.action}} </td>
+        </ng-container>
+
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+
+</div>
